@@ -4,6 +4,7 @@ Mobile-first, frontend-only educational simulation for structured clinical reaso
 
 ## Features
 
+- A featured research and innovation focus: **Development and Bench Validation of an IoT-Based Digital Chest Drain Monitoring System for Cardiothoracic Surgical Education**.
 - 18 fictional, de-identified BTKV cases across cardiac, congenital, thoracic, vascular, emergency, perioperative, and postoperative critical care domains.
 - Staged five-part challenges, answer feedback, hints, an Operative Planning Board, and score summaries.
 - Catalog filtering and sorting, full-text search, favorites, local progress dashboard, quick-reference library, and light/dark/system themes.
