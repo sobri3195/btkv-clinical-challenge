@@ -7,6 +7,7 @@ Mobile-first, frontend-only educational simulation for structured clinical reaso
 - A featured research and innovation focus: **Development and Bench Validation of an IoT-Based Digital Chest Drain Monitoring System for Cardiothoracic Surgical Education**.
 - 18 fictional, de-identified BTKV cases across cardiac, congenital, thoracic, vascular, emergency, perioperative, and postoperative critical care domains.
 - Staged five-part challenges, answer feedback, hints, an Operative Planning Board, and score summaries.
+- Confidence-calibrated answers, a personal error notebook, adaptive case recommendations, and a spaced-repetition review queue.
 - Catalog filtering and sorting, full-text search, favorites, local progress dashboard, quick-reference library, and light/dark/system themes.
 - Responsive mobile bottom navigation and desktop sidebar, accessible focus states, and reduced-motion support.
 - No account, backend, database, analytics, API, environment variables, or real patient imagery.
@@ -40,7 +41,7 @@ The source is organized into `components`, `data`, `hooks`, `pages`, `types`, an
 
 ## Local storage
 
-The app uses `btkv:favorites`, `btkv:progress`, `btkv:challenge-sessions`, `btkv:search-history`, `btkv:theme`, `btkv:splash-seen`, and `btkv:recent-cases`. Defensive parsing falls back safely if saved JSON is corrupt. Data never leaves the browser.
+The app uses `btkv:favorites`, `btkv:progress`, `btkv:challenge-sessions`, `btkv:learning-attempts`, `btkv:search-history`, `btkv:theme`, `btkv:splash-seen`, and `btkv:recent-cases`. Defensive parsing falls back safely if saved JSON is corrupt. Data never leaves the browser.
 
 ## Medical disclaimer
 
