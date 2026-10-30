@@ -231,3 +231,5 @@ header{height:68px;padding:0 clamp(24px,3vw,48px);justify-content:space-between;
 [data-theme=light] .pearl-grid article,[data-theme=light] .challenge-grid>button{background:linear-gradient(145deg,#fff,#f6fafb);border-color:#d9e5ea}[data-theme=light] .pearl-grid p,[data-theme=light] .challenge-grid p{color:#687e8d}[data-theme=light] .challenge-grid>button{color:#17364c}[data-theme=light] .challenge-grid>button:hover{box-shadow:0 14px 28px rgba(31,71,88,.1)}
 [data-theme=light] .challenge-page{--bg-app:#eef5f7;--bg-header:#fff;background:linear-gradient(180deg,#edf6f8,#f8fbfc);color:#17364c}[data-theme=light] .challenge-top b{color:#17364c}[data-theme=light] .challenge-top>a,[data-theme=light] .challenge-top>span{background:#fff;border-color:#cfe5eb}[data-theme=light] .stepper i{background:#d9e5ea}
 [data-theme=light] .bottom{background:rgba(255,255,255,.95);border-color:#d9e5ea}[data-theme=light] .mobile-heading strong{color:#17364c}
+
+.content-review-note{display:block;font-size:10px;color:var(--muted);margin:8px 0 12px;line-height:1.5}.storage-notice{padding:12px 20px;margin:0;background:#fff0cf;color:#684b1c;font-size:12px}
