@@ -45,3 +45,11 @@ The app uses `btkv:favorites`, `btkv:progress`, `btkv:challenge-sessions`, `btkv
 ## Medical disclaimer
 
 > BTKV Clinical Challenge is an educational simulation. It is not intended to diagnose patients, determine surgical eligibility, replace institutional protocols, or substitute for supervision by a qualified cardiothoracic and vascular surgeon.
+
+## Simulation Lab update
+
+`/ward` adds an Indonesian, illustrated bedside decision game with learning/shift modes, staged chart disclosure, decision logs, deterministic scenario time, persisted sessions, and an answer-by-answer debrief. It currently includes **one** fictional tamponade scenario, informed by ESC 2025 section 11.8; the vital signs and timing are scripted educational values, not a physiology model. Independent specialist and educational validation are pending.
+
+Case challenge scores now reflect saved answers. XP, level, streak, and domain statistics derive from recorded case activity. Planning is formative and unscored. The original 18-case bank remains a set of educational templates pending case-specific specialist review. Ward sessions currently remain separate from case XP/streak.
+
+Run `node --test tests/game.test.mjs` and `npm run build` to verify scoring/state transitions and compile the production app. See [the detailed audit and roadmap](docs/ANALISIS_PENYEMPURNAAN.md).
